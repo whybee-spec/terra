@@ -1,0 +1,16 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Backup files
+*.backup
+
+# Terraform variables override file (if any)
+terraform.tfvars
+
+# .terraform directory
+.terraform/
+
+# Sensitive files (if applicable)
+*.pem
+*.key
